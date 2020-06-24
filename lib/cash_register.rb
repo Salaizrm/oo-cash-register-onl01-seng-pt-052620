@@ -9,7 +9,7 @@ class CashRegister
   end
 
   def add_item(product, price, quantity = 1)
-    self.total += amount * quantity
+    self.total += price * quantity
     quantity.times do
       items << product
     end
