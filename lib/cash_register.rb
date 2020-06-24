@@ -1,3 +1,3 @@
-class CashRegister0
+class CashRegister
 
 end
